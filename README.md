@@ -6,6 +6,10 @@ Code examples for building reliable local AI agents using small language models 
 
 ---
 
+## Examples
+
+Both examples are simple file systems that a Python script uses to read context and tasks, call `Ollama` to perform the tasks, and then create an output. `okr-planner` shows how to use context files (OKR progress, company context) with agents, while `ux-insights-agent` shows how to use skills to run different tasks.
+
 ## Prompting Principles
 
 ### One agent, one job
